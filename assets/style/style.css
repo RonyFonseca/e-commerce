@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    max-width: 100%;
+    min-height: 100vh;
+    
+}
+
+header {
+    background-color:rgba(122, 122, 122, 0.15);
+}
+
+
+/*LOGIN*/
+#cabecario-login {
+    min-height: 157px;
+}
+
+header > .logo {
+    margin: 27px 0px 48.15px 56px;
+}
+
+#corpo-login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sec-content-login {
+    margin: 100px;
+    text-align: center;
+}
+
+#sec-content-login > h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#sec-content-login > p {
+    font-size: 22px;
+    font-weight: 500;  
+    margin: 5px; 
+}
+
+#form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#form-login > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#form-login > div > span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#form-login > div > input {
+    padding: 11px 13px;
+    width: 524px;
+    border-radius: 10px;
+    border: 2px solid #7A7A7A;
+}
+
+#dv-btn > a {
+    margin-top: 66px;
+    padding: 20px 36px;
+    border-radius: 6px;
+    background: #0C70F2;
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+/*HOME*/
+#cabecario-home {
+    height: 116px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-home {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 46px;
+}
+
+#menu-home > ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    align-items: center;
+}
+
+#menu-home > ul > li > a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu-home> ul > li:nth-child(1) {
+    font-weight: 500;
+}
+
+#carrinho-de-compra > li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+#corpo-home {
+    margin-top: 61px;
+}
+
+#procurar-cx {
+    display: flex;
+    justify-content: center;
+}
+
+#procurar-cx > input {
+    width: 1096px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.60);
+    background: rgba(255, 255, 255, 0.10);
+    padding: 5px;
+    height: 48px;
+    font-size: 15px;
+}
+
+#img-group-procurar {
+    margin-left: 35px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#img-group-procurar > img {
+    width: 30px;
+    height: 32.308px;
+}
+
+
+
+/*CARD*/
+
+#sec-content-home-card {
+    margin: 70px 133px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.card-cx {
+    margin: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 337px;
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+    background: var(--primitive-white, #FFF);
+}
+
+.img-content-card > img {
+    border-radius: 5px;
+    width: 329px;
+}
+
+.text-content-card {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.comprar-look {
+    width: 128px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #0C70F2;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
